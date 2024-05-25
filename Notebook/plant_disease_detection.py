@@ -180,4 +180,4 @@ img_path="/content/plantvillage dataset/color/Corn_(maize)___Northern_Leaf_Bligh
 predicted_class=predict_image_class(model,img_path,class_indices)
 print(predicted_class)
 
-model.save('drive/MyDrive/Trained_Models/Plant_Disease_Detection .h5')
+model.save('drive/MyDrive/Trained_Models/Plant_Disease_Detection.h5')
