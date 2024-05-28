@@ -14,9 +14,9 @@ st.set_page_config(
 
 # Load model and class indices
 working_dir=os.path.dirname(os.path.abspath(__file__))
-model_path = f"{working_dir}/trained_models/Plant_Disease_Detection.h5"
+model_path = f"{working_dir}/Trained_models/Plant_Disease_Detection.h5"
 model = tf.keras.models.load_model(model_path)
-class_indices = json.load(open(f"{working_dir}/App/class_indices.json"))
+class_indices = json.load(open(f"{working_dir}/class_indices.json"))
 
 # Load and preprocess image using Pillow
 def load_and_preprocess_image(image_path, target_size=(224, 224)):
