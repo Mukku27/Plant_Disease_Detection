@@ -17,7 +17,7 @@ This repository contains a web application built using Streamlit that classifies
 
 Plant diseases can significantly impact crop yield and quality, making it crucial to detect and identify them early. The Plant Disease Classifier aims to provide a user-friendly interface for farmers, gardeners, and anyone interested in identifying plant diseases by simply uploading a leaf image.
 
-The application leverages a pre-trained deep learning model built using TensorFlow and Keras. The model was trained on the PlantVillage dataset, which contains images of various plant diseases across different plant species. The model training process is available in the `plant_disease_detection.py` file, which was originally created using Google Colab. You can find the Colab notebook at the following link: [https://colab.research.google.com/drive/18LPECKxoAMxMXybkSoq_0d05CU-S2jYe](https://colab.research.google.com/drive/18LPECKxoAMxMXybkSoq_0d05CU-S2jYe)
+The application leverages a pre-trained deep learning model built using TensorFlow and Keras. The model was trained on the PlantVillage dataset, which contains images of various plant diseases across different plant species. The model training process is available in the `plant_disease_detection.py` file, which was originally created using Google Colab. You can find the Colab notebook at the following link: [https://colab.research.google.com/drive/18LPECKxoAMxMXybkSoq_0d05CU-S2jYe?usp=sharing](Open Notebook in colab)
 
 ## Features
 
